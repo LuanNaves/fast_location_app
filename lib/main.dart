@@ -1,8 +1,8 @@
-import 'package:flutter_application_1/src/modules/history/page/history_page.dart';
-import 'package:flutter_application_1/src/modules/home/page/home_page.dart';
-import 'package:flutter_application_1/src/modules/initial/page/initial_page.dart';
-import 'package:flutter_application_1/src/routes/app_router.dart';
-import 'package:flutter_application_1/src/shared/storage/hive_config.dart';
+import 'package:fast_location_app/src/modules/history/page/history_page.dart';
+import 'package:fast_location_app/src/modules/home/page/home_page.dart';
+import 'package:fast_location_app/src/modules/initial/page/initial_page.dart';
+import 'package:fast_location_app/src/routes/app_router.dart';
+import 'package:fast_location_app/src/shared/storage/hive_config.dart';
 import 'package:flutter/material.dart';
 
 void main() {

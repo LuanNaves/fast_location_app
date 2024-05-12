@@ -1,4 +1,4 @@
-import 'package:flutter_application_1/src/modules/home/model/address_model.dart';
+import 'package:fast_location_app/src/modules/home/model/address_model.dart';
 import 'package:flutter/material.dart';
 
 class AddressList extends StatefulWidget {

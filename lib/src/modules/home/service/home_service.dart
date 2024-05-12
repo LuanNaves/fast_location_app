@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_application_1/src/modules/home/model/address_model.dart';
-import 'package:flutter_application_1/src/modules/home/repositories/home_local_repository.dart';
-import 'package:flutter_application_1/src/modules/home/repositories/home_repository.dart';
+import 'package:fast_location_app/src/modules/home/model/address_model.dart';
+import 'package:fast_location_app/src/modules/home/repositories/home_local_repository.dart';
+import 'package:fast_location_app/src/modules/home/repositories/home_repository.dart';
 import 'package:flutter/material.dart';
 import 'package:geocoding/geocoding.dart';
 import 'package:map_launcher/map_launcher.dart';

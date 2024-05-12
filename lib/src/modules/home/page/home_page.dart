@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/src/modules/home/components/search_address.dart';
-import 'package:flutter_application_1/src/modules/home/components/search_empty.dart';
-import 'package:flutter_application_1/src/modules/home/controller/home_controller.dart';
-import 'package:flutter_application_1/src/routes/app_router.dart';
-import 'package:flutter_application_1/src/shared/colors/app_colors.dart';
-import 'package:flutter_application_1/src/shared/components/app_button.dart';
+import 'package:fast_location_app/src/modules/home/components/search_address.dart';
+import 'package:fast_location_app/src/modules/home/components/search_empty.dart';
+import 'package:fast_location_app/src/modules/home/controller/home_controller.dart';
+import 'package:fast_location_app/src/routes/app_router.dart';
+import 'package:fast_location_app/src/shared/colors/app_colors.dart';
+import 'package:fast_location_app/src/shared/components/app_button.dart';
 import 'package:geocoding/geocoding.dart';
 import 'package:map_launcher/map_launcher.dart';
 
@@ -238,6 +238,7 @@ class _HomePageState extends State<HomePage> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
+        shape: const CircleBorder(),
         backgroundColor: Colors.green,
         onPressed: controller.lastAddress == null
             ? null

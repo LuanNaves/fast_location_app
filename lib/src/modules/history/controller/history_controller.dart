@@ -1,5 +1,5 @@
-import 'package:flutter_application_1/src/modules/home/model/address_model.dart';
-import 'package:flutter_application_1/src/modules/home/service/home_service.dart';
+import 'package:fast_location_app/src/modules/home/model/address_model.dart';
+import 'package:fast_location_app/src/modules/home/service/home_service.dart';
 import 'package:mobx/mobx.dart';
 part 'history_controller.g.dart';
 

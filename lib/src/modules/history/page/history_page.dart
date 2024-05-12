@@ -1,7 +1,7 @@
-import 'package:flutter_application_1/src/modules/history/controller/history_controller.dart';
-import 'package:flutter_application_1/src/modules/home/components/address_list.dart';
-import 'package:flutter_application_1/src/shared/colors/app_colors.dart';
-import 'package:flutter_application_1/src/shared/components/app_loading.dart';
+import 'package:fast_location_app/src/modules/history/controller/history_controller.dart';
+import 'package:fast_location_app/src/modules/home/components/address_list.dart';
+import 'package:fast_location_app/src/shared/colors/app_colors.dart';
+import 'package:fast_location_app/src/shared/components/app_loading.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 

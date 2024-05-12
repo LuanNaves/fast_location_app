@@ -1,7 +1,7 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:flutter/material.dart';
 
-import 'package:flutter_application_1/src/modules/home/model/address_model.dart';
+import 'package:fast_location_app/src/modules/home/model/address_model.dart';
 
 class SearchAddress extends StatefulWidget {
   final AddressModel address;

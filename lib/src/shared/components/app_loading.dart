@@ -1,4 +1,4 @@
-import 'package:flutter_application_1/src/shared/colors/app_colors.dart';
+import 'package:fast_location_app/src/shared/colors/app_colors.dart';
 import 'package:flutter/material.dart';
 
 class AppLoading extends StatelessWidget {
