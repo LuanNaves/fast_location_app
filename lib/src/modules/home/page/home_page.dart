@@ -38,6 +38,7 @@ class _HomePageState extends State<HomePage> {
     try {
       Navigator.pop(context);
       await controller.getAddress(value.replaceAll('-', ''));
+      setState(() {});
     } catch(_) {
       await Future.delayed(const Duration(seconds: 1));
       if (context.mounted) {
