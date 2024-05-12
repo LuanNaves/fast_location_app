@@ -166,7 +166,7 @@ class _HomePageState extends State<HomePage> {
                 ),
                 controller.lastAddress == null
                   ? Container(
-                      margin: const EdgeInsets.fromLTRB(0, 0, 0, 20),
+                      margin: const EdgeInsets.symmetric(vertical: 20),
                       padding: const EdgeInsets.all(30),
                       width: double.infinity,
                       decoration: BoxDecoration(
